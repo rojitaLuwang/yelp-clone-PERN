@@ -5,7 +5,7 @@ const RestaurantFinder = axios.create({
   baseURL:
     process.env.NODE_ENV !== "production"
       ? "http://localhost:7000/api/v1/restaurants"
-      : "https://fullstackpern.herokuapp.com/api/v1/restaurantss",
+      : "https://fullstackpern.herokuapp.com/api/v1/restaurants",
   timeout: 5000,
 });
 
